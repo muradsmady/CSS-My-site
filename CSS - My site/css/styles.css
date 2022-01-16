@@ -1,0 +1,153 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;              /* 1em == 16px rem root em ignore the root inheritant*/
+  font-family: 'Sacramento', cursive;       /*100% == 16px so 90px ==90*100/16=562.5% x*/
+  /*line-height: 2;*/
+
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 25px;
+  margin-top: 20px;
+
+}
+
+.full-stack {
+  text-decoration: underline;
+  /*visibility: hidden; */
+  /*display: none;*/
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.murad-image{
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+}
+.lap-circle{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.project-image{
+  float: right; /*clear == ani-float which prevent paragraph that not wrap */
+  width: 25%;
+  margin-left: 30px;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAA6F6;
+}
+.blue-mountain{
+  width:400px ;
+  height:400px ;
+}
+hr{
+  border-style: none;
+  width: 10%;
+  border-width: 5px;
+  border-top-style: dotted;
+  border-color: #FBE6F6;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;/* spaces*/
+}
+
+.bio{
+  color: #40514E;
+  line-height: 2;
+  margin: auto;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.would-cnt{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me{
+}
+.copy-right{
+  color: #EAA6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-bottom: 0; 
+}
